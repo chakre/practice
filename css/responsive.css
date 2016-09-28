@@ -1,0 +1,146 @@
+/*!
+ * Bootstrap Responsive v2.3.1
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+
+@media (min-width: 1200px) {
+
+	.container { width: 970px; }
+
+}
+
+@media (min-width: 992px) {
+	
+	
+
+}
+
+@media (min-width: 768px) {
+
+	.navbar-brand{
+	display: none;
+}
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.content .container .image img{
+		width: 100%;
+	}
+	.content .container .form-control {
+		width:30%;
+	}
+
+	.navbar-default {
+		font-size: 14px !important;
+	}
+
+	.nav > li > a {
+		padding: 10px;
+	}
+
+	.profile ul li.profile-pic {
+		margin: 0 30px;
+		}
+
+	.profile ul li.profile-pic:before,
+	.profile ul li.profile-pic:after {
+		background-color: #cccccc;
+		content: '';
+		display: block;
+		height: 1px;
+		position: absolute;
+		top: 50%;
+		width: 34px;
+		}
+
+	.profile ul li.profile-pic:before {
+		left: -34px;
+		}
+
+	.profile ul li.profile-pic:after {
+		right: -34px;
+		}
+
+}
+
+@media (max-width: 767px) {
+
+	body { padding: 0; }
+	
+	.header { margin-bottom: 0; position: inherit; }
+
+	.header .bizlogo { bottom: auto; left: auto; margin-left: 0; position: inherit; text-align: center; }
+
+	.header .bizlogo a { background-color: transparent; border: 0; display: inline-block; height: auto; width: auto; }
+
+	.navbar ul { width: 50%; }
+
+	.navbar ul li {
+		margin: 0 !important;
+		}
+
+	.navbar-default .navbar-nav > li > a:hover,
+	.navbar-default .navbar-nav > li > a:focus,
+	.navbar-default .navbar-nav > .active > a,
+	.navbar-default .navbar-nav > .active > a:hover,
+	.navbar-default .navbar-nav > .active > a:focus { background-color: rgba(255, 255, 255, 0.2); border: 0; }
+
+	.navbar-default .navbar-nav > .active > a,
+	.navbar-default .navbar-nav > .active > a:hover,
+	.navbar-default .navbar-nav > .active > a:focus { background-color: rgba(255, 255, 255, 0.2); border: 0; border-left: 3px solid #ffffff; }
+
+	.navbar-default .navbar-nav > .active > a:before { display: none; }
+
+	.intro .intro-text h1 { font-size: 26px; }
+
+	.profile ul li.profile-pic { margin: 0; }
+
+	.profile ul li.profile-pic:before,
+	.profile ul li.profile-pic:after { display: none; }
+
+	.profile ul li.feature { display: none; }
+
+	.carousel li { width: 100%; }
+
+	.hireme h3 { display: block; }
+
+	.hireme ul li a { width: 80px; }
+	
+}
+
+@media (max-width: 480px) {
+	.content .container .image img{
+		width: 100%;
+	}
+
+	.content .container .form-control {
+		width:100%;
+	}
+	
+	
+
+}
+

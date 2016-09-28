@@ -1,0 +1,265 @@
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+
+.header{
+	background-color: black;
+	width: 100%;
+	min-height: 120px;
+}
+.header .container{
+	min-height: 150px;
+	
+
+}
+	    .header .biz-logo{
+		
+
+
+	    }
+			.header .biz-logo img{
+				margin-top: 40px;
+			}
+
+		.header .container .top-nav{
+			float:right;
+			margin-left: 50px;
+		}	 
+		     
+		     .navbar-default {
+		     	margin-top: 45px;
+		     	font-size: 18px;
+		     	color: white;
+		     	font-family: century;
+
+		     }
+
+
+.navbar-default {
+	background: none;
+	border: 0;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: white;
+
+}
+/* banner start */
+.banner {
+	position: relative;
+}
+.banner img{
+	width: 100%;
+}
+.banner a.left,
+.banner a.right {
+	position: absolute;
+	
+	display: inline-block;
+	width: 60px;
+	height: 100%;
+	color: #ffffff;
+	
+	top: 0;
+}
+.banner a.left {
+	left: 0;
+	background:rgba(255,255,255,0.25) url('../images/arr.png') no-repeat center center;
+
+}
+.banner a.right {
+	right: 0;
+	background:rgba(255,255,255,0.25) url('../images/arr-right.png') no-repeat center center;
+}
+
+
+.banner .small-circle{
+	position: absolute;
+	bottom:10px;
+	left:50%;
+	width:200px;
+	text-align: center;
+	margin-left: -100px;
+}
+.banner .small-circle ul li{
+	display: inline-block;
+	margin-left: 3px;
+
+}
+
+.banner .small-circle ul li a{
+	display: block;
+	height: 13px;
+	width: 13px;
+	border-radius: 50%;
+	background-color: white;
+	
+	}
+
+	.banner .small-circle ul li a.active{
+	
+	background-color: #12e90d;
+	
+	}
+
+	.about {
+       min-height: 400px;
+       width: 100%;
+       text-align: center;
+       background-color: #b24910;
+	}
+	.about .container h2{
+		color: white;
+		font-family: century;
+		font-size: 36px;
+		margin-top: 30px;
+		margin-bottom:20px;
+	}
+	.about .container p{
+        color: white;
+        font-size: 17px;
+        font-family: century;
+        text-align: justify;
+
+
+        
+
+	  }
+
+
+
+	  .history {
+	  	min-height: 150px;
+	  	background-color: #e5dcde;
+	  }
+	  .history .container h2{
+	  	text-align: center;
+	  	color: #0c273e;
+	  	font-family: century;
+	  	text-transform: capitalize;
+	  	font-size: 36px;
+	  }
+	  .history .container p{
+	  	
+	  	font-size: 17px;
+	  	text-align: justify;
+	  	color: #75818b;
+	  	font-family: arial;
+	  	margin-bottom: 40px;
+	  }
+	  .history .container .mobile-image{
+	  	margin-left: 15px;
+	  	margin-top: 80px;
+	  	margin-bottom: 20px;
+	  }
+	   .history .container .mobile-image img{
+	   	border: 10px solid #b24910;
+	   	width: 100%;
+	     }
+
+
+.blocks{
+	color: #110f0f;
+	background:rgba(17,15,15,0.85);
+	min-height: 300px;
+}
+.blocks .contact-us h2,
+.blocks .services,
+.blocks .newsletter
+{
+	margin-top: 30px;
+	text-align: left;
+	font-family: century;
+	font-size:  36px;
+	color: #f5f1f1;
+	margin-bottom: 20px;
+}
+
+.blocks .contact-us p,
+.blocks .services p
+{
+	margin-top: 18px;
+	font-family: arial;
+	font-size: 16px;
+	text-align: left;
+ 	color: white;
+}
+
+.btn-default{
+	background-color: #b24910;
+	color: white;
+	border: 0;
+	width: 70px;
+	font-size: 18px;
+}
+.btn-default:hover {
+	background-color: #3549df;
+	color: red;
+	border: 0;
+}
+.footer-content{
+	min-height: 100px;
+	width: 100%;
+	background-color: #110f0f;
+}
+.footer-content p{
+	padding-top: 20px;
+  text-align: center;
+
+}
+.footer-content p a{
+	color: #8d8184;
+}
+.footer-content p a:hover{
+	color: green;
+}
+
+.content .container{
+	min-height: 150px;
+}
+
+.content .container h2
+{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 36px;
+	font-family: century;
+	margin-top: 40px;
+}
+
+.content .container {
+	margin-top: 30px;
+	
+    
+
+}
+
+.content .container p
+{
+	text-align:justify;
+	
+	font-size: 17px;
+	margin-top: 30px;
+}
+
+.content .container .image {
+	margin-top: 50px;
+}
+
+.content .container .image img{
+	width: 350px;
+
+	margin-bottom: 20px;
+}
+	
+	.content .container .form-control{
+		width: 30%;
+	}
+
+	  .content .container .btn-default{
+	  	margin-bottom: 30px;
+	  }
+
+		         
